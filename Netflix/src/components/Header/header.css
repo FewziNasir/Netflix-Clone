@@ -1,0 +1,40 @@
+.flexable {
+  display: flex;
+  align-items: center;
+}
+
+.header_outer_container {
+  position: sticky;
+  top: 0;
+  height: 10vh;
+  justify-content: center;
+  color: white;
+  background-color: transparent;
+  transition: all 0.5s ease-in;
+  z-index: 1;
+  background-color: #211ade;
+}
+
+.header_container {
+  width: 90%;
+  justify-content: space-between;
+}
+
+.header_links ul {
+  gap: 15px;
+}
+
+.header_links img {
+  width: 85px;
+  padding-top: 8px;
+  cursor: pointer;
+}
+
+.header_icons ul {
+  gap: 10px;
+}
+
+ul li {
+  font-size: 12px;
+  cursor: pointer;
+}
